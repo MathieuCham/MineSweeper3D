@@ -73,7 +73,7 @@ void init_event(){
 
 	SDL_Init(SDL_INIT_VIDEO);
 	atexit(SDL_Quit);
-	SDL_WM_SetCaption("Le demineur du jaco", NULL);
+	SDL_WM_SetCaption("MineSweeper3D", NULL);
 	SDL_SetVideoMode(Tx, Ty, 32, SDL_OPENGL);
 	start_time = SDL_GetTicks();
 	keyconf["straff_gauche"] = SDLK_LEFT;
